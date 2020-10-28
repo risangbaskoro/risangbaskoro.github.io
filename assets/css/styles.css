@@ -1,0 +1,61 @@
+body {
+  background: rgb(0,0,0);
+  color: rgb(224,224,224);
+  font-family: Montserrat, sans-serif;
+}
+
+.hero {
+  width: 100%;
+  height: 90vh;
+}
+
+.row.hero-row {
+  width: 70vw;
+  margin: 0 auto;
+  height: 87vh;
+}
+
+.col.align-self-center.hero-col.image {
+  text-align: center;
+}
+
+.hero-heading {
+  font-size: 32px;
+}
+
+@media (min-width: 768px) {
+  .hero-heading {
+    font-size: 40px;
+  }
+}
+
+.hero-subheading {
+  font-size: 18px;
+}
+
+@media (min-width: 768px) {
+  .hero-subheading {
+    font-size: 24px;
+  }
+}
+
+.hero-p {
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .hero-p {
+    font-size: 16px;
+  }
+}
+
+.rounded-circle.hero-image {
+  width: 150px;
+}
+
+@media (min-width: 768px) {
+  .rounded-circle.hero-image {
+    width: 250px;
+  }
+}
+
