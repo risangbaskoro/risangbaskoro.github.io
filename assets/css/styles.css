@@ -50,7 +50,7 @@ body {
 }
 
 .rounded-circle.hero-image {
-  width: 150px;
+  width: 170px;
 }
 
 @media (min-width: 768px) {
@@ -108,12 +108,8 @@ body {
   }
 }
 
-#toileet {
-  background-color: #e5f6f9;
-}
-
 img {
-  width: 560px;
+  width: 480px;
 }
 
 .copyright {
@@ -127,5 +123,37 @@ img {
   padding: 0;
   padding-left: 60px;
   padding-right: 60px;
+}
+
+.project#toileet {
+  background-color: #e5f6f9;
+}
+
+.links {
+  margin-bottom: 30px;
+}
+
+.nav-item {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .nav.navbar-nav.nav-socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 768px) {
+  .row.hero-row {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .col.align-self-center.hero-col.description {
+    text-align: left;
+  }
 }
 
