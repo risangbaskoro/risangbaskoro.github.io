@@ -6,7 +6,7 @@ body {
 
 .hero {
   width: 100%;
-  height: 90vh;
+  height: 86vh;
 }
 
 .row.hero-row {
@@ -57,5 +57,75 @@ body {
   .rounded-circle.hero-image {
     width: 250px;
   }
+}
+
+.project {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.project h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .project h1 {
+    font-size: 60px;
+    font-weight: 700;
+  }
+}
+
+.project h2 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  .project h2 {
+    font-size: 27px;
+    font-weight: 300;
+  }
+}
+
+.link {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .link {
+    font-size: 21px;
+  }
+}
+
+.link.learn-more {
+  margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .link.learn-more {
+    margin-right: 15px;
+  }
+}
+
+#toileet {
+  background-color: #e5f6f9;
+}
+
+img {
+  width: 560px;
+}
+
+.copyright {
+  text-align: center;
+  font-weight: 100;
+  font-size: 11px;
+  padding: 10px;
+}
+
+.toileet#toileet {
+  padding: 0;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
